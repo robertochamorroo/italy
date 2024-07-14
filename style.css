@@ -4,7 +4,7 @@ html, body{
     background-repeat: no-repeat;
 }
 #fundo1{
-    background: url(img/fundo1.jpeg);
+    background: url(fundo1.jpeg);
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
