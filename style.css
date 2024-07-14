@@ -3,7 +3,7 @@ html, body{
     margin: 0;
 }
 #fundo1{
-    background: url(img/fundo1.jpeg);
+    background: url(fundo1.jpeg);
     height: 100%;
     text-align: center;
     background-size: cover;
@@ -44,7 +44,7 @@ html, body{
     font-size:medium;
 }
 .informacoes{
-    background: url(img/coliseu.jpg);
+    background: url(coliseu.jpg);
     background-size: 100%;
     text-align: center;
     height: 100%;
@@ -159,7 +159,7 @@ li:hover {
 }
 
 #mais {
-    background: url(img/mais.jpg);
+    background: url(mais.jpg);
     height: 100%;
     width: 100%;
     text-align: center;
