@@ -1,12 +1,15 @@
 html, body{
     padding: 0;
     margin: 0;
+    background-repeat: no-repeat;
 }
 #fundo1{
-    background: url(fundo1.jpeg);
-    height: 100%;
+    background: url(img/fundo1.jpeg);
     text-align: center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
 }
 #titulo1{
     color: white;
@@ -16,6 +19,7 @@ html, body{
     font-style: italic;
     margin-left: 20%;
     margin-right: 20%; 
+    text-align: center;
 }
 .coluna{
     float: left;
@@ -29,10 +33,11 @@ html, body{
 }
 #bandeira2{
     background: linear-gradient(to right, green, white, red);
-    height: 500px;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .secao2{
     height: 100%;
@@ -45,9 +50,10 @@ html, body{
 }
 .informacoes{
     background: url(coliseu.jpg);
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     height: 100%;
+    background-position: inherit;
 }
 #titulo3{
     color: black;
@@ -176,3 +182,31 @@ li:hover {
 .cima {
     margin-top: -03%;
 }
+
+img {
+    max-width: 100%;
+}
+
+
+@media all and (max-width: 965px) {
+    #menu {
+        visibility: hidden;
+    }  
+
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+
+    #dois {
+        flex-direction: column;
+    }
+}
+
+
